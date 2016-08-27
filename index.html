@@ -1,53 +1,1179 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>Technosolz.GitHub.io by technosolz</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-  </head>
-  <body>
-    <section class="page-header">
-      <h1 class="project-name">Technosolz.GitHub.io</h1>
-      <h2 class="project-tagline">Technosolz Website</h2>
-    </section>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Creative</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.default.css">
+        <link rel="stylesheet" href="css/lightgallery.min.css">
 
-    <section class="main-content">
-      <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+        <!--THEME CSS-->
+        <link rel="stylesheet" href="css/theme.css">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here <a href="https://guides.github.com/features/mastering-markdown/">using GitHub Flavored Markdown</a>, select a template crafted by a designer, and publish. After your page is generated, you can check out the new <code>gh-pages</code> branch locally. If you’re using GitHub Desktop, simply sync your repository and you’ll see the new branch.</p>
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/fontello.css">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,300italic,500,600,700,800' rel='stylesheet' type='text/css'>
+    </head>
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Designer Templates</h3>
 
-<p>We’ve crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+    <body data-spy="scroll" data-target=".navbar-default">
 
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating pages manually</h3>
+        <!-- REQUIRED FOR HOME MENU POINTER ON SINGLE PAGE -->
+        <div id="home"></div>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+        <!--BEGIN LOADER -->
+        <div id="preloader">
+            <div class="loader">
+                <div class="loader-child loader-bounce1"></div>
+                <div class="loader-child loader-bounce2"></div>
+                <div class="loader-child loader-bounce3"></div>
+            </div>
+        </div>
+        <!--END LOADER -->
 
-<p>You can @mention a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor’s GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+        <!-- HEADER -->
+        <header id="header">
+            <!-- BEGIN NAVBAR -->
+            <nav class="navbar navbar-default">
+                <div class="container">
 
-      <footer class="site-footer">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="index.html">Creative</a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-primary" aria-expanded="false">
+                            <span class="sr-only"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
 
-        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
-      </footer>
+                    </div>
 
-    </section>
+                    <div id="nav-primary" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="index.html#home">Home</a></li>
+                            <li><a href="index.html#service">Services</a></li>
+                            <li><a href="index.html#about">About Us</a></li>
+                            <li><a href="index.html#review">Reviews</a></li>
+                            <li><a href="index.html#team">Team</a></li>
+                            <li><a href="index.html#portfolio">Portfolio</a></li>
+                            <li><a href="index.html#contact">Contact</a></li>
+                            <span class="menu-underline"></span>
+                        </ul>
+                    </div>
 
-  
-  </body>
+                </div>
+                <!-- END CONTAINER -->
+            </nav>
+            <!-- END NAVBAR -->
+        </header>
+        <!-- END HEADER -->
+
+
+
+
+        <!--SLIDER SECTION-->
+        <section id="slider" class="" style="min-height:300px">
+            <div class="contaner-fluid">
+                <div class="slides owl-carousel owl-theme">
+
+                    <!-- slide1 -->
+                    <div class="slide text-center owl-lazy" data-src="images/slide1.jpg">
+                        <div class="content">
+                            <div class="amSlideInUp">
+                                <h3>We are </h3>
+                                <h1><strong>Software Enthusiasts</strong></h1>
+                                <h2>We Do Cool Things</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end slide1 -->
+
+                    <!-- slide2 -->
+                    <div class="slide text-center owl-lazy" data-src="images/slide2.jpg">
+                        <div class="content">
+                            <h1 class="amSlideInRight"><strong>Creative</strong> Agency</h1>
+                            <h2 class="amSlideInLeft">Design &amp; Development</h2>
+                        </div>
+                    </div>
+                    <!-- end slide2 -->
+
+                    <!-- slide3 -->
+                    <div class="slide text-center owl-lazy" data-src="images/slide3.jpg">
+                        <div class="content">
+                            <h1 class="amBounceInDown"><strong>Creative</strong> Agency</h1>
+                            <h2 class="amBounceInUp">Internet Marketing</h2>
+                        </div>
+                    </div>
+                    <!-- end slide3 -->
+
+                    <!-- slide4 -->
+                    <div class="slide text-center owl-lazy" data-src="images/slide4.jpg">
+                        <div class="content">
+                            <h1 class="amZoomInDown"><strong>Creative</strong> Agency</h1>
+                            <h2 class="amBounceInUp">Search Engine Optimization</h2>
+                        </div>
+                    </div>
+                    <!-- end slide4 -->
+
+                </div><!-- end slides -->
+
+                <div id="explore">
+                    <span><i class="fa fa-angle-down"></i></span>
+                </div>
+
+            </div><!-- end contaner-fluid -->
+        </section>
+        <!-- END SLIDER SECTION-->
+
+
+
+
+        <!--SERVICE -->
+        <section id="service" class="section">
+            <div class="container">
+                <div class="page-header wow softFadeInUp animated" data-wow-delay=".5s">
+                    <h3>We Provide</h3>
+                    <h2>Services</h2>
+                    <div class="lead">
+                        We pride ourselves in having all the skills you need under one roof. We are able to provide any web design or development work.
+                    </div>
+                </div><!-- end page-header -->
+
+                <div class="row text-center">
+                    <!-- service web design -->
+                    <div class="web-design block wow softFadeInUp animated col-md-4" data-wow-delay=".3s">
+
+                        <div class="iconXlg circle radial-out">
+                            <i class="fa fa-laptop"></i>
+                        </div>
+
+                        <div class="service-title">
+                            <h4>Web Development</h4>
+                        </div>
+                        <div class="service-details">
+                            <p>If you are a Business Owner and don’t have a website – 
+                                then you NEED to think today as you are losing the deal. 
+                                Someone is winning orders from virtual market place and YOU don’t even know.
+                                Technosolz helps you setup your website and get those business 
+                                leads routed to you in smart and compelling way. </p>
+                        </div>
+                    </div>
+                    <!-- end service web design -->
+
+                    <!-- service graphic design -->
+                    <div class="graphic-design block wow softFadeInUp animated col-md-4" data-wow-delay=".5s">
+
+                        <div class="iconXlg circle radial-out">
+                            <i class="fa fa-mobile"></i>
+                        </div>
+
+                        <div class="service-title">
+                            <h4>Mobile Application</h4>
+                        </div>
+                        <div class="service-details">
+                            <p>At Technosolz we offer stunning, intuitive mobile apps, 
+                                empowering you to enhance your customers’ experience.
+                                Our team has the specialized skills and experience to effectively strategize, 
+                                design, develop, implement and support the development of a mobile solution. </p>
+                        </div>
+                    </div>
+                    <!-- end service graphic design -->
+
+                    <!-- service internet-marketing -->
+                    <div class="internet-marketing block wow softFadeInUp animated col-md-4" data-wow-delay=".7s">
+
+                        <div class="iconXlg circle radial-out">
+                            <i class="fa fa-eye"></i>
+                        </div>
+
+                        <div class="service-title">
+                            <h4>Web Design</h4>
+                        </div>
+                        <div class="service-details">
+                            <p>
+                                We offer a redesign service which will modernise your site without losing the existing company 
+                                identity. A new website will bring your business new customers, boost the sales momentum, 
+                                and allow for extra functionality to be added to improve your visitors online experience. </p>
+                        </div>
+                    </div>
+                    <!-- end service internet-marketing -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+        <!-- END SERVICE -->
+
+
+
+        <!-- ABOUT SECTION-->
+        <section id="about" class="section bg-grey">
+            <div class="container">
+
+                <div class="page-header clearfix wow softFadeInUp animated" data-wow-delay=".5s">
+                    <h3>Hello world</h3>
+                    <h2>About Us</h2>
+                    <div class="lead">
+                        Technosolz is a Software company based in Pakistan providing web and mobile development services.
+                        We are committed to enabling people 
+                        and verticals through our high performance solutions and applications.
+                    </div>
+                </div><!--end page-header -->
+
+                <div class="row wow softFadeInUp animated" data-wow-delay=".2s">
+                    <div class="col-md-7 block">
+                        <p><strong>At Technosolz we offer a remarkably wide variety of services with recognized quality. Our capable developers offer customized solutions both for small business to enterprise needs which may range from Mobile and Web applications to Enterprise Resource Planning Systems.</strong></p>
+
+                        <p>We believe in providing our clients with tunning, intuitive and innovative solutions which enhance their organization achieve true operational excellence.</p>
+
+                    </div>
+
+<!--                    <div class="col-md-5 block text-center">
+                        <h5>How do we work</h5>
+                         gallery 
+                        <div id="gallery" class="clearfix">
+                            <a class="thumbnail" href="images/gallery/image1.jpg" data-sub-html="<h4>Lorem ipsum dolor</h4><p>This is a sample caption for the image</p>">
+                                <img src="images/gallery/thumb1.jpg" alt="">
+                            </a>
+
+                            <a class="thumbnail" href="images/gallery/image2.jpg" data-sub-html="<h4>Lorem ipsum dolor sit amet</h4><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>">
+                                <img src="images/gallery/thumb2.jpg" alt="">
+                            </a>
+
+                            <a class="thumbnail" href="images/gallery/image3.jpg" data-sub-html="<h4>Team in work</h4><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>">
+                                <img src="images/gallery/thumb3.jpg" alt="">
+                            </a>
+
+                            <a class="thumbnail" href="images/gallery/image4.jpg" data-sub-html="<h4>consectetur adipisicing elit</h4><p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                               cillum dolore.</p>">
+                                <img src="images/gallery/thumb4.jpg" alt="">
+                            </a>
+                            <a class="thumbnail" href="images/gallery/image5.jpg" data-sub-html="<h4>Excepteur sint occaecat</h4><p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>">
+                                <img src="images/gallery/thumb5.jpg" alt="">
+                            </a>
+
+                            <a class="thumbnail" href="images/gallery/image6.jpg" data-sub-html="<h4>deserunt mollit anim id est laborum</h4><p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>">
+                                <img src="images/gallery/thumb6.jpg" alt="">
+                            </a>
+
+                            <a class="thumbnail" href="images/gallery/image7.jpg" data-sub-html="<h4>Ut enim ad minim veniam</h4><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>">
+                                <img src="images/gallery/thumb7.jpg" alt="">
+                            </a>
+                            <a class="thumbnail" href="images/gallery/image8.jpg" data-sub-html="<h4>Labore et dolore magna aliqua</h4><p>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>">
+                                <img src="images/gallery/thumb8.jpg" alt="">
+                            </a>
+                        </div>
+                         end gallery 
+                        <small class="text-muted">Click on the images to enlarge</small>
+                    </div>-->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+        <!-- END ABOUT SECTION-->
+
+
+
+        <!-- BEGIN ABOUT2 SECTION-->
+        <section id="about2" class="section">
+            <div class="container">
+                <div class="row">
+
+                    <!-- begin accordions
+                    <div id="accordion" class="block panel-group col-md-6 wow softFadeInUp animated" data-wow-delay=".2s" role="tablist" aria-multiselectable="true">
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="index.html#collaplse1" aria-expanded="true" aria-controls="collaplse1">
+                                        Typography example
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collaplse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <p><del>This is some deleted/strikethrough text cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.</del></p>
+
+                                    <p><em>Update: Text using em tags are styled as here you see it.</em> Ut quo, doloribus est cumque nobis incidunt laboriosam maxime quibusdam sit rem dicta nihil, eaque facilis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="index.html#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                        List styles and others
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.</p>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            Example of <u>unordered</u> list
+                                            <ul>
+                                                <li>Item1</li>
+                                                <li>Item2</li>
+                                                <li>Item3</li>
+                                                <li>Item4</li>
+                                                <li>Item5</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <del>Unordered</del> ordered list
+                                            <ol>
+                                                <li>Item1</li>
+                                                <li>Item2</li>
+                                                <li>Item3</li>
+                                                <li>Item4</li>
+                                                <li>Item5</li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab">
+                                <h4 class="panel-title">
+                                    <a role="button" data-toggle="collapse" data-parent="#accordion" href="index.html#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                        Anim pariatur cliche
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    end accordions -->
+
+
+                    <!-- begin skills -->
+                    <div id="skills" class="block col-sm-12 col-md-12 wow softFadeInUp animated" data-wow-delay=".4s">
+
+                        <!-- 1st skillbar -->
+                        <div class="skillbar" data-percent="85%">
+                            <div class="skillbar-title"><span>HTML5</span></div>
+                            <div class="skillbar-bar" style="background: #e67e22;"></div>
+                            <div class="skill-bar-percent">85%</div>
+                        </div>
+                        <!-- end 1st skillbar -->
+
+                        <!-- 2nd skillbar -->
+                        <div class="skillbar" data-percent="90%">
+                            <div class="skillbar-title"><span>PHP</span></div>
+                            <div class="skillbar-bar bg-primary"></div>
+                            <div class="skill-bar-percent">90%</div>
+                        </div>
+                        <!-- end 2nd skillbar -->
+
+                        <!-- 3rd skillbar -->
+                        <div class="skillbar" data-percent="95%">
+                            <div class="skillbar-title"><span>Swift</span></div>
+                            <div class="skillbar-bar bg-info"></div>
+                            <div class="skill-bar-percent">95%</div>
+                        </div>
+                        <!-- end 3rd skillbar -->
+
+                        <!-- 4th skillbar -->
+                        <div class="skillbar" data-percent="90%">
+                            <div class="skillbar-title"><span>Android</span></div>
+                            <div class="skillbar-bar bg-success"></div>
+                            <div class="skill-bar-percent">90%</div>
+                        </div>
+                        <!-- end 4th skillbar -->
+
+                        <!-- 5th skillbar -->
+                        <div class="skillbar" data-percent="70%">
+                            <div class="skillbar-title"><span>Photoshop</span></div>
+                            <div class="skillbar-bar bg-warning"></div>
+                            <div class="skill-bar-percent">70%</div>
+                        </div>
+                        <!-- end 5th skillbar -->
+
+                        <!-- 6th skillbar -->
+                        <div class="skillbar" data-percent="85%">
+                            <div class="skillbar-title"><span>Objective-C</span></div>
+                            <div class="skillbar-bar bg-warning"></div>
+                            <div class="skill-bar-percent">70%</div>
+                        </div>
+                        <!-- end 6th skillbar -->
+                    </div>
+                    <!-- end skills -->
+
+
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+        <!-- END ABOUT2 SECTION-->
+
+
+
+
+        <!-- BEGIN COUNT SECTION-->
+        <section id="count" class="section bg-primary project-counter text-center">
+            <div class="container">
+
+                <div class="col-md-3 wow softFadeInUp animated block" data-wow-delay=".2s">
+                    <!--<i class="fa fa-hand-peace-o fa-2x"></i>-->
+                    <h3>
+                        <span class="counts" data-speed="2000" data-to="80" data-from="0">0</span><span>+</span>
+                    </h3>
+                    Projects Delivered
+                </div>
+
+                <div class="col-md-3 wow softFadeInUp animated block" data-wow-delay=".4s">
+                    <!--<i class="fa fa-glass fa-2x"></i>-->
+                    <h3>
+                        <span class="counts" data-speed="2000" data-to="30" data-from="0">0</span><span>+</span>
+                    </h3>
+                    Satisfied Clients
+                </div>
+
+                <div class="col-md-3 wow softFadeInUp animated block" data-wow-delay=".6s">
+                    <!--<i class="fa fa-heart-o fa-2x"></i>-->
+                    <h3>
+                        <span class="counts" data-speed="2000" data-to="70" data-from="0">0</span><span>+</span>
+                    </h3>
+                    5-stars Received
+                </div>
+
+                <div class="col-md-3 wow softFadeInUp animated block" data-wow-delay=".8s">
+                    <i class="fa fa-users fa-2x"></i>
+                    <h3>
+                        <span class="counts" data-speed="2000" data-to="10" data-from="0">0</span><span>k</span>
+                    </h3>
+                    Applications
+                </div>
+
+            </div><!-- end container -->
+        </section>
+        <!-- END COUNT SECTION-->
+
+
+
+
+        <!-- BEGIN REVIEW SECTION -->
+        <section id="review" class="section section2">
+            <div class="container">
+                <div class="row text-center col-sm-10 col-sm-push-1 col-xs-12 col-xs-push-0">
+                    <div id="review-list" class="owl-carousel owl-theme wow softFadeInUp animated" data-wow-delay=".2s">
+
+                        <!-- review 1 -->
+                        <blockquote>
+                            <div class="stars">
+                                <i class="fa fa-star fa-2x"></i>
+                                <i class="fa fa-star fa-2x"></i>
+                                <i class="fa fa-star fa-2x"></i>
+                                <i class="fa fa-star fa-2x"></i>
+                                <i class="fa fa-star fa-2x"></i>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt soluta corrupti totam, hic quidem voluptatibus aliquam pariatur nobis doloribus ab repellendus voluptatum.
+                            </p>
+                            <footer>
+                                <strong>John Doe</strong>, Lorem Inc
+                            </footer>
+                        </blockquote>
+                        <!-- end review 1 -->
+
+                        <!-- review 2 -->
+                        <blockquote>
+                            <div class="stars">
+                                <i class="fa fa-star fa-2x"></i>
+                                <i class="fa fa-star fa-2x"></i>
+                                <i class="fa fa-star fa-2x"></i>
+                                <i class="fa fa-star fa-2x"></i>
+                                <i class="fa fa-star fa-2x"></i>
+                            </div>
+                            <p>
+                                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt nollit anim id est laborum reprehenderit in voluptate. sunt in culpa qui officia deserunt nollit anim deserunt.
+                            </p>
+                            <footer>Adam Kirillov</footer>
+                        </blockquote>
+                        <!-- end review 2 -->
+
+                        <!-- review 3 -->
+                        <blockquote>
+                            <div class="stars">
+                                <i class="fa fa-star fa-2x"></i>
+                                <i class="fa fa-star fa-2x"></i>
+                                <i class="fa fa-star fa-2x"></i>
+                                <i class="fa fa-star fa-2x"></i>
+                                <i class="fa fa-star fa-2x"></i>
+                            </div>
+                            <p>
+                                Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur deserunt nollit anim id est.
+                            </p>
+                            <footer>Jane Doe</footer>
+                        </blockquote>
+                        <!-- end review 3 -->
+
+                        <!-- review 4 -->
+                        <blockquote>
+                            <div class="stars">
+                                <i class="fa fa-star fa-2x"></i>
+                                <i class="fa fa-star fa-2x"></i>
+                                <i class="fa fa-star fa-2x"></i>
+                                <i class="fa fa-star fa-2x"></i>
+                                <i class="fa fa-star-half-empty fa-2x"></i>
+                            </div>
+                            <p>
+                                sunt in culpa qui officia deserunt nollit anim deserunt nollit anim id est laborum. excepteur sint occaecat cupidatat non proident. 
+                            </p>
+                            <footer>Lucille Moreau</footer>
+                        </blockquote>
+                        <!-- end review 4 -->
+
+                    </div><!-- end review-list -->
+                </div><!-- end row -->
+            </div><!-- end container -->
+        </section>
+        <!-- END REVIEW SECTION-->
+
+
+        <!-- BEGIN TEAM SECTION -->
+        <section id="team" class="section bg-grey">
+            <div class="container">
+
+                <div class="page-header wow softFadeInUp animated" data-wow-delay=".5s">
+                    <div class="container">
+                        <h3>Skilled &amp; Creative</h3>
+                        <h2>Team</h2>
+                        <!-- <div class="lead"></div> -->
+                    </div>
+                </div>
+
+                <div id="members" class="member-list block owl-carousel">
+
+                    <div class="member text-center wow softFadeInUp animated" data-wow-delay=".1s">
+                        <div class="flip-container">
+                            <div class="flipper">
+                                <!-- front -->
+                                <div class="front">
+                                    <div class="member-image">
+                                        <img src="images/member1.jpg" alt="ct1">
+                                    </div>
+                                </div>
+                                <!-- end front -->
+
+                                <!-- back -->
+                                <div class="back bg-dark">
+                                    <img class="img-circle" src="images/member1-thumb.jpg" alt="ct1">
+                                    <div class="text-center">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit malesuada interdum.
+                                    </div>
+                                    <div class="social-links">
+                                        <a href="index.html#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                        <a href="index.html#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                        <a href="index.html#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                                <!--end back -->
+
+                            </div><!--end flipper -->
+
+                            <div class="footer bg-dark">
+                                <h4>Zain Aftab</h4>
+                                <small class="text-primary">Android Developer/Co-Founder</small>
+                            </div>
+
+                        </div><!--end flip-container -->
+                    </div><!--end member -->
+
+
+                    <div class="member text-center wow softFadeInUp animated" data-wow-delay=".3s">
+                        <div class="flip-container">
+                            <div class="flipper">
+
+                                <!-- front -->
+                                <div class="front">
+                                    <div class="member-image">
+                                        <img src="images/member1.jpg" alt="ct2">
+                                    </div>
+                                </div>
+                                <!--end front-->
+
+                                <!-- back -->
+                                <div class="back bg-dark">
+                                    <img class="img-circle" src="images/member1-thumb.jpg" alt="ct3">
+                                    <div class="text-center">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit malesuada interdum.
+                                    </div>
+                                    <div class="social-links">
+                                        <a href="index.html#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                        <a href="index.html#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                        <a href="index.html#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                                <!--end back -->
+                            </div><!--end flipper -->
+
+                            <div class="footer bg-dark">
+                                <h4>Hassan Aftab</h4>
+                                <small class="text-primary">iOS Developer/Co-Founder</small>
+                            </div>
+
+                        </div><!--end flip-container -->
+                    </div>
+                    <div class="member text-center wow softFadeInUp animated" data-wow-delay=".5s">
+                        <div class="flip-container">
+                            <div class="flipper">
+
+                                <!-- front -->
+                                <div class="front">
+                                    <div class="member-image">
+                                        <img src="images/member1.jpg" alt="ct3">
+                                    </div>
+                                </div>
+                                <!--end front-->
+
+                                <!-- back -->
+                                <div class="back bg-dark">
+                                    <img class="img-circle" src="images/member1-thumb.jpg" alt="ct3">
+                                    <div class="text-center">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit malesuada interdum.
+                                    </div>
+                                    <div class="social-links">
+                                        <a href="index.html#" class="facebook"><i class="fa fa-facebook"></i></a>
+                                        <a href="index.html#" class="twitter"><i class="fa fa-twitter"></i></a>
+                                        <a href="index.html#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                                <!--end back -->
+
+                            </div><!--end flipper -->
+                            <div class="footer bg-dark">
+                                <h4>Saddam Arshad</h4>
+                                <small class="text-primary">PHP Developer/Co-Founder</small>
+                            </div>
+                        </div><!--end flip-container -->
+                    </div>
+
+                </div><!--end members-->
+
+            </div><!--end container -->
+        </section>
+        <!--END TEAM SECTION-->
+
+        <!-- PORTFOLIO SECTION-->
+        <section id="portfolio" class="section bg-dark">
+            <div class="container-fluid">
+                <div class="page-header wow softFadeInUp animated" data-wow-delay=".5s">
+                    <div class="">
+                        <h3>Our work</h3>
+                        <h2>Portfolio</h2>
+                        <!-- <div class="lead"></div> -->
+                    </div>
+                </div>
+                <div class="section-body text-center clearfix">
+                    <div class="wow softFadeInUp animated" data-wow-delay=".3s">
+                        <div class="portfolio-filter button-group">
+                            <button class="btn btn-primary" data-filter="*">All</button>
+                            <button class="btn" data-filter=".web-design">Web Design</button>
+                            <button class="btn" data-filter=".web-development">Web Development</button>
+                            <button class="btn" data-filter=".graphic-design">Graphic Design</button>
+                            <button class="btn" data-filter=".logo-design">Logo Design</button>
+                        </div>
+                        <ul class="portfolio-list">
+                            <li class="logo-design web-development">
+                                <figure>
+                                    <img src="images/p1.jpg" alt="item1">
+                                    <a class="popup-image" href="index.html#" data-toggle="modal" data-target="#portfolio1">
+                                        <figcaption class="left">
+                                            <h4>A Cow Is A Cow</h4>
+                                            <span>
+                                                Cow lorem ipsum dolor sit amet
+                                            </span>
+                                        </figcaption>
+                                    </a>
+                                </figure>
+                            </li>
+
+                            <li class="web-development">
+                                <figure>
+                                    <img src="images/p5.jpg" alt="item2">
+                                    <a class="popup-image" href="index.html#" data-toggle="modal" data-target="#portfolio2">						
+                                        <figcaption class="top">
+                                            <h4>Mauris Pizza</h4>
+                                            <span>
+                                                Pizza congue lorem at hendrerit
+                                            </span>
+                                        </figcaption>
+                                    </a>
+                                </figure>
+                            </li>
+                            <li class="logo-design">
+                                <figure>
+                                    <img src="images/p7.jpg" alt="item3">
+                                    <a class="popup-image" href="index.html#" data-toggle="modal" data-target="#portfolio3">
+                                        <figcaption class="bottom">
+                                            <h4>Portable Life</h4>
+                                            <span>
+                                                Lorem ipsum portable sit amet
+                                            </span>
+                                        </figcaption>
+                                    </a>
+                                </figure>
+                            </li>
+                            <li class="web-design graphic-design">
+                                <figure>
+                                    <img src="images/p3.jpg" alt="item4">
+                                    <a class="popup-image" href="index.html#" data-toggle="modal" data-target="#portfolio4">
+                                        <figcaption class="right">
+                                            <h4>VSLR</h4>
+                                            <span>
+                                                Vital SLR ex vitae
+                                            </span>
+                                        </figcaption>
+                                    </a>
+                                </figure>
+                            </li>
+                            <li class="web-development">
+                                <figure>
+                                    <img src="images/p6.jpg" alt="item5">
+                                    <a class="popup-image" href="index.html#" data-toggle="modal" data-target="#portfolio5">
+                                        <figcaption class="left">
+                                            <h4>Imagine</h4>
+                                            <span>
+                                                A bulb over your head
+                                            </span>
+                                        </figcaption>
+                                    </a>
+                                </figure>
+                            </li>
+                            <li class="web-design logo-design">
+                                <figure>
+                                    <img src="images/p2.jpg" alt="item6">
+                                    <a class="popup-image" href="index.html#" data-toggle="modal" data-target="#portfolio6">
+                                        <figcaption class="top">
+                                            <h4>Beerable</h4>
+                                            <span>
+                                                Ultrices laoreet tortor pellentesque ut
+                                            </span>
+                                        </figcaption>
+                                    </a>
+                                </figure>
+                            </li>
+                            <li class="web-design">
+                                <figure>
+                                    <img src="images/p8.jpg" alt="item7">
+                                    <a class="popup-image" href="index.html#" data-toggle="modal" data-target="#portfolio7">
+                                        <figcaption class="bottom">
+                                            <h4>Play 'n' Pause</h4>
+                                            <span>
+                                                Etiam tellus turpis efficitur ac laoreet non
+                                            </span>
+                                        </figcaption>
+                                    </a>
+                                </figure>
+                            </li>
+                            <li class="web-design graphic-design">
+                                <figure>
+                                    <img src="images/p4.jpg" alt="item8">
+                                    <a class="popup-image" href="index.html#" data-toggle="modal" data-target="#portfolio8">
+                                        <figcaption class="right">
+                                            <h4>Coffee Time</h4>
+                                            <span>
+                                                Milk or no milk is the question
+                                            </span>
+                                        </figcaption>
+                                    </a>
+                                </figure>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!--end container fluid -->
+
+            <!-- =============== popup dialogues are here ===============  -->
+
+            <!-- portfolio popup 1-->
+            <div class="modal appearWithBlur" id="portfolio1" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content clearfix">
+
+                        <div class="modal-header">
+                            <div type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></div>
+                        </div>
+
+                        <div class="modal-body row">
+                            <div class="col-sm-6">
+                                <img src="images/p1.jpg" alt="item1">
+                            </div>
+                            <div class="col-sm-6">
+                                <h3>Project Description</h3>
+                                <p>This is a modal window of A Cow is a cow. You can do the following things with it: modal windows will probably tell you something important so don't forget to read what they say.</p>
+                                <h4>Client</h4> 
+                                <p>John Doe</p>
+                                <a href="index.html#" class="btn btn-primary">Visit Website</a>
+                            </div>
+                        </div><!--end modal-body -->
+
+                    </div><!--end modal-content -->
+                </div><!--end modal-dialog -->
+            </div><!--end modal -->
+            <!--end portfolio popup 1-->
+
+            <!-- portfolio popup 2-->
+            <div class="modal fullScreenShow" id="portfolio2" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content clearfix">
+
+                        <div class="modal-header">
+                            <div type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></div>
+                        </div>
+
+                        <div class="modal-body row">
+                            <div class="col-sm-6">
+                                <img src="images/p5.jpg" alt="item2">
+                            </div>
+                            <div class="col-sm-6">
+                                <h3>Modal with "fullScreen" class</h3>
+                                <ul>
+                                    <li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+                                    <li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+                                    <li><strong>Close:</strong> click on the button below to close the modal.</li>
+                                </ul>
+                                <h4>Client</h4> 
+                                <p>John Doe</p>
+                                <a href="index.html#" class="btn btn-primary">Visit Website</a>
+                            </div>
+                        </div><!--end modal-body -->
+
+                    </div><!--end modal-content -->
+                </div><!--end modal-dialog -->
+            </div><!--end modal -->
+            <!--end portfolio popup 2-->
+
+            <!-- portfolio popup 3-->
+            <div class="modal appearWithBlur" id="portfolio3" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content clearfix">
+
+                        <div class="modal-header">
+                            <div type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></div>
+                        </div>
+
+                        <div class="modal-body row">
+                            <div class="col-sm-6">
+                                <img src="images/p7.jpg" alt="item3">
+                            </div>
+                            <div class="col-sm-6">
+                                <h3>Project Description</h3>
+                                <ul>
+                                    <li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+                                    <li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+                                    <li><strong>Close:</strong> click on the button below to close the modal.</li>
+                                </ul>
+                                <h4>Client</h4> 
+                                <p>John Doe</p>
+                                <a href="index.html#" class="btn btn-primary">Visit Website</a>
+                            </div>
+                        </div><!--end modal-body -->
+
+                    </div><!--end modal-content -->
+                </div><!--end modal-dialog -->
+            </div><!--end modal -->
+            <!--end portfolio popup 3-->
+
+            <!-- portfolio popup 4-->
+            <div class="modal appearWithBlur" id="portfolio4" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content clearfix">
+
+                        <div class="modal-header">
+                            <div type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></div>
+                        </div>
+
+                        <div class="modal-body row">
+                            <div class="col-sm-6">
+                                <img src="images/p3.jpg" alt="item4">
+                            </div>
+                            <div class="col-sm-6">
+                                <h3>Project Description</h3>
+                                <p>This is a modal window. You can do the following things with it: modal windows will probably tell you something important so don't forget to read what they say.</p>
+                                <h4>Client</h4> 
+                                <p>John Doe</p>
+                                <a href="index.html#" class="btn btn-primary">Visit Website</a>
+                            </div>
+                        </div><!--end modal-body -->
+
+                    </div><!--end modal-content -->
+                </div><!--end modal-dialog -->
+            </div><!--end modal -->
+            <!--end portfolio popup 4-->
+
+
+            <!-- portfolio popup 5-->
+            <div class="modal appearWithBlur" id="portfolio5" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content clearfix">
+
+                        <div class="modal-header">
+                            <div type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></div>
+                        </div>
+
+                        <div class="modal-body row">
+                            <div class="col-sm-6">
+                                <img src="images/p6.jpg" alt="item5">
+                            </div>
+                            <div class="col-sm-6">
+                                <h3>Project Description</h3>
+                                <p>This is a modal window. You can do the following things with it: modal windows will probably tell you something important so don't forget to read what they say.</p>
+                                <h4>Client</h4> 
+                                <p>John Doe</p>
+                                <a href="index.html#" class="btn btn-primary">Visit Website</a>
+                            </div>
+                        </div><!--end modal-body -->
+                    </div><!--end modal-content -->
+                </div><!--end modal-dialog -->
+            </div><!--end modal -->
+            <!--end portfolio popup 5-->
+
+            <!-- portfolio popup 6-->
+            <div class="modal fullScreenShow" id="portfolio6" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content clearfix">
+
+                        <div class="modal-header">
+                            <div type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></div>
+                        </div>
+
+                        <div class="modal-body row">
+                            <div class="col-sm-6">
+                                <img src="images/p2.jpg" alt="item6">
+                            </div>
+                            <div class="col-sm-6">
+                                <h3>Project Description</h3>
+                                <p>This is a modal window. You can do the following things with it: modal windows will probably tell you something important so don't forget to read what they say.</p>
+                                <h4>Client</h4> 
+                                <p>John Doe</p>
+                                <a href="index.html#" class="btn btn-primary">Visit Website</a>
+                            </div>
+                        </div><!--end modal-body -->
+
+                    </div><!--end modal-content -->
+                </div><!--end modal-dialog -->
+            </div><!--end modal -->
+            <!--end portfolio popup 6-->
+
+            <!-- portfolio popup 7-->
+            <div class="modal appearWithBlur" id="portfolio7" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content clearfix">
+
+                        <div class="modal-header">
+                            <div type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></div>
+                        </div>
+
+                        <div class="modal-body row">
+                            <div class="col-sm-6">
+                                <img src="images/p8.jpg" alt="item7">
+                            </div>
+                            <div class="col-sm-6">
+                                <h3>Project Description</h3>
+                                <p>This is a modal window. You can do the following things with it: modal windows will probably tell you something important so don't forget to read what they say.</p>
+                                <h4>Client</h4> 
+                                <p>John Doe</p>
+                                <a href="index.html#" class="btn btn-primary">Visit Website</a>
+                            </div>
+                        </div><!--end modal-body -->
+
+                    </div><!--end modal-content -->
+                </div><!--end modal-dialog -->
+            </div><!--end modal -->
+            <!--end portfolio popup 7-->
+
+            <!-- portfolio popup 8-->
+            <div class="modal appearWithBlur" id="portfolio8" tabindex="-1" role="dialog">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content clearfix">
+
+                        <div class="modal-header">
+                            <div type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></div>
+                        </div>
+
+                        <div class="modal-body row">
+                            <div class="col-sm-6">
+                                <img src="images/p4.jpg" alt="item8">
+                            </div>
+                            <div class="col-sm-6">
+                                <h3>Project Description</h3>
+                                <p>This is a modal window. You can do the following things with it: modal windows will probably tell you something important so don't forget to read what they say.</p>
+                                <h4>Client</h4> 
+                                <p>John Doe</p>
+                                <a href="index.html#" class="btn btn-primary">Visit Website</a>
+                            </div>
+                        </div><!--end modal-body -->
+
+                    </div><!--end modal-content -->
+                </div><!--end modal-dialog -->
+            </div><!--end modal -->
+            <!--end portfolio popup 8-->
+
+            <!-- =============== end popup dialogues ===============  -->
+        </section>
+        <!--END PORTFOLIO SECTION -->
+
+
+        <!-- CONTACT SECTION-->
+        <section id="contact" class="section">
+
+            <div class="container">
+                <div class="page-header wow softFadeInUp animated" data-wow-delay=".5s">
+                    <h3>Feel free to</h3>
+                    <h2>Contact Us</h2>
+                    <div class="lead">
+                        We like to hear you Lorem ipsum dolor sit amet consectetur adipisicing elit
+                    </div>
+                </div>
+            </div><!--end container -->
+
+            <!--google map loads here-->
+            <div id="map" class="wow softFadeInUp animated" data-wow-delay=".5s"></div>
+
+
+            <div id="contact-details" class="container">
+                <div class="row">
+
+                    <!-- address -->
+                    <div class="col-md-4 wow softFadeInUp animated" data-wow-delay=".3s">
+                        <div class="iconLg bg-primary circle">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <address>
+                            <strong>Comapany Inc</strong><br>
+                            370 Gympie Rd, Strathpine, QLD, 4500, Australia
+                        </address>
+                    </div>
+                    <!--end address -->
+
+                    <!-- phone -->
+                    <div class="col-md-4 wow softFadeInUp animated" data-wow-delay=".5s">
+                        <div class="iconLg bg-primary circle">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <address>
+                            <strong>Phone &amp; Skype</strong><br>
+                            +88 01719542426 <br>
+                            loremipsum
+                        </address>
+                    </div>
+                    <!--end phone -->
+
+                    <!--end email -->
+                    <div class="col-md-4 wow softFadeInUp animated" data-wow-delay=".7s">
+                        <div class="iconLg bg-primary circle">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <address>
+                            <strong>Sales &amp; Support</strong><br>
+                            sales@example.com <br>
+                            support@example.com
+                        </address>
+                    </div>
+                    <!--end email -->
+
+                </div><!-- end row -->	
+            </div><!-- end container -->
+
+        </section>
+        <!--END CONTACT SECTION-->
+
+
+        <!-- BEGIN FORM SECTION -->
+        <section id="form" class="section section2 bg-grey">
+            <div class="container">
+                <div class="page-header wow softFadeInUp animated" data-wow-delay=".5s">
+                    <h3>Get in Touch</h3>
+                </div>
+                <div id="alert" role="alert" class="alert alert-success hidden alert-dismissible fade in">
+                    <strong>Thanks!</strong> Your message has been received. Someone will get back to you.
+                </div>
+                <form id="contactForm" action="http://demo.amviro.com/creative/process.php" role="form" method="POST">
+                    <div class="row wow softFadeInUp animated" data-wow-delay=".3s">
+                        <div class="form-group col-md-6 col-sm-12">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Name" data-toggle="tooltip" data-placement="right" title="Your name is required" required>
+                        </div>
+                        <div class="form-group col-md-6 col-sm-12">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group col-md-6 col-sm-12">
+                            <input type="text" class="form-control" id="company" name="company" placeholder="Company">
+                        </div>
+                        <div class="form-group col-md-6 col-sm-12">
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Phone">
+                        </div>
+                        <div class="form-group col-sm-12">
+                            <textarea placeholder="Message......" class="form-control" id="message" rows="5" name="message" required></textarea>
+                        </div>
+                        <div class="form-group col-sm-12 text-center">
+                            <input type="submit" id="submit" class="btn btn-primary btn-md" value="SEND MESSAGE">
+                        </div>
+                    </div>
+                </form>
+            </div><!--end container -->
+        </section>
+        <!--END FORM SECTION-->
+
+
+
+        <!-- COPYRIGHT SECTION -->
+        <footer id="footer" class="section bg-dark wow softFadeIn" data-wow-delay=".3s" data-wow-offset="-50">
+            <div class="container text-center">
+                <div class="footer-social wow softFadeIn" data-wow-delay="1s" data-wow-offset="-300">
+                    <a href="index.html#" class="twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="index.html#" class="twitter"><i class="fa fa-google-plus"></i></a>
+                    <a href="index.html#" class="facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="index.html#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <div class="copyright wow softFadeInUp" data-wow-delay=".7s" data-wow-offset="-200">
+                    <p>&copy; 2016 Technosolz.com - All rights reserved</p>
+                </div>
+            </div><!--end container -->
+        </footer>
+        <!--END COPYRIGHT SECTION -->
+
+        <a href="index.html#" id="toTop">
+            <i class="fa fa-angle-up"></i>
+        </a>
+
+
+        <!-- BEGIN JS FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky-customized.js"></script>
+        <script src="js/SmoothScroll.min.js"></script>
+        <script src="js/jquery.appear.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/jquery.countTo.js"></script>
+        <script src="js/modernizr.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/lightgallery-all.min.js"></script>
+        <script src="js/jquery.form.min.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhH-iyuQwxKBlE2e3imkWn3CqCVspH434"></script>
+        <script src="js/scripts.js"></script>
+        <!--CSS & JS FOR DEMO PRESENTATION ONLY 
+    <link rel="stylesheet" href="css/demo.css">
+    <style>body.darken #count,body.darken #bottom{background-image: url('images/slide1.jpg');}</style>
+    <script>$(document).ready(function(){$("#switcher .trigger").click(function(){$("#switcher").hasClass("open")?$("#switcher").removeClass("open"):$("#switcher").addClass("open")})});</script>
+    END OF DEMO CSS & JS -->
+
+        <!--END JS FILES -->
+
+    </body>
 </html>
